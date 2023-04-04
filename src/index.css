@@ -3,4 +3,19 @@ body {
   margin: 0;
 }
 
+.list-item {
+  cursor: pointer;
+}
 
+.list-item:hover .delete-item {
+  display: block !important;
+}
+
+
+.delete-item {
+  display: none !important;
+}
+
+.delete-item:hover {
+  display: block;
+}
